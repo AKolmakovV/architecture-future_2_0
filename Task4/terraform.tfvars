@@ -1,0 +1,5 @@
+yc_token     = "y0__xC-34-BBhjLhDsgy9-F5hRY6BMXHw4ie0avsOdlEc-PgyGt5A"
+yc_cloud_id  = "b1gedv49dp16b0sa71eg"
+yc_folder_id = "b1gpai9c8n75khkc0u80"
+vm_image_id  = "fd80bm0rh4rkepi5ksdi"
+ssh_public_key = "~/.ssh/id_rsa.pub"
