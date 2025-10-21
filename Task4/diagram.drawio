@@ -1,0 +1,81 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="3p9yUcitkGuSOmepjdNK">
+    <mxGraphModel dx="3266" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2CVEpdisjIb15xDfOyb3-1" value="Cloud Provider" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="-160" width="1200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2CVEpdisjIb15xDfOyb3-10" target="2CVEpdisjIb15xDfOyb3-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-14" value="Terraform apply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2CVEpdisjIb15xDfOyb3-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.1467" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-10" value="CI/CD pipeline" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2CVEpdisjIb15xDfOyb3-11" target="2CVEpdisjIb15xDfOyb3-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-11" value="GIT" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="37.5" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-15" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-480" y="-130" width="410" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-16" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-130" width="600" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-19" value="KeyCloak" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="270" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-20" value="Фин.тех. система" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-110" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-21" value="Terraform management" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="250" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-22" value="Native management (Ansible/docker/kubectl)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="250" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-23" value="Мед.система." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="70" y="5" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-24" value="Мед.система." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="70" y="130" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-25" value="API Gateway Kong" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-110" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-26" value="Secrets Manager&amp;nbsp; &amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="-270" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-27" value="&amp;nbsp;Disk (Persistent)&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="-100" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-28" value="Network (VPC, Subnets, Firewall)&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="-460" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-30" value="VM (Compute)&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-100" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-31" value="Data Hub" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="260" y="130" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-32" value="Apache Superset" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="460" y="-110" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-33" value="Web портал самообслуживания" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="460" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2CVEpdisjIb15xDfOyb3-34" value="Legacy System" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=none;shape=mxgraph.archimate3.node;" parent="1" vertex="1">
+          <mxGeometry x="460" y="130" width="170" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

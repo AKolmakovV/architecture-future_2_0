@@ -36,3 +36,33 @@
 3. Обосновать каждый этап отраженный в RoadMap
 
 Далее, детали в - [README](./Task3/README.md)
+
+## Задание 4. Проектирование облачной инфраструктуры с применением IaaS и Terraform 1
+
+Диаграмма автоматизации развертывания:
+
+!["Диаграмма"](./Task4/diagram.png)
+
+/Task4/
+
+main.tf — описание инфраструктуры;
+
+variables.tf — определение переменных;
+
+outputs.tf — вывод ключевых параметров;
+
+terraform.tfvars — значения переменных;
+
+**Результаты выполнения команд:**
+
+terraform init:
+
+![terraform_init.png](./Task4/terraform_init.png)
+
+terraform plan: [terraform_plan.txt](./Task4/terraform_plan.txt)
+
+terraform apply: [terraform_apply.txt](./Task4/terraform_apply.txt)
+
+![terraform_apply.txt](./Task4/terraform_apply.png)
+
+Обоснование конфигурации: [justification.md](./Task4/justification.md)
